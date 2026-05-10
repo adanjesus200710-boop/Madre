@@ -589,25 +589,76 @@ section{
     line-height:1.8;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-
 @media(max-width:900px){
 
+    header{
+        padding:15px;
+    }
+
     .navbar{
+
         flex-direction:column;
-        gap:20px;
+
+        gap:12px;
+
+        padding:18px 20px;
+
+        border-radius:25px;
+
+    }
+
+    .logo{
+
+        font-size:2rem;
+
+        text-align:center;
+
+        line-height:1.2;
+
     }
 
     .nav-links{
+
         flex-wrap:wrap;
+
         justify-content:center;
-        gap:20px;
+
+        gap:15px;
+
+    }
+
+    .nav-links a{
+
+        font-size:1rem;
+
+    }
+
+    .extra-buttons{
+
+        margin-top:5px;
+
+    }
+
+    .hero{
+
+        padding-top:180px;
+
     }
 
     .hero h1{
-        font-size:2.8rem;
+
+        font-size:2.7rem;
+
+        line-height:1.1;
+
+    }
+
+    .hero p{
+
+        font-size:1.1rem;
+
+        line-height:1.8;
+
     }
 
 }
